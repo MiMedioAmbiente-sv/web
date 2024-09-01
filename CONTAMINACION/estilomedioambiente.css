@@ -1,0 +1,149 @@
+/* Estilos globales */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor del encabezado */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Espacia los elementos a los lados opuestos */
+    align-items: center; /* Alinea verticalmente */
+    padding: 10px 20px;
+    background-color: black;
+    color: #808080;
+}
+
+/* Estilo para el título */
+.header-container h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 24px;
+    color: #0073ff;
+}
+
+/* Estilo para la caja de búsqueda */
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.search-box input[type="text"] {
+    padding: 5px;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #cfc9c9;
+}
+
+
+.contenedor {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1000px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+.image {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.image img {
+    max-width: 60px;
+    margin: 2px;
+}
+.image {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 15px; /* Espaciado entre las imágenes */
+    padding: 20px 0; /* Espacio arriba y abajo del bloque de imágenes */
+}
+
+.image img {
+    max-width: 80px; /* Ajusta el tamaño de las imágenes */
+    transition: transform 0.3s ease; /* Animación suave */
+}
+
+.image img:hover {
+    transform: scale(1.5); /* Efecto zoom al pasar el mouse */
+}
+
+.image a {
+    text-decoration: none; /* Elimina subrayado en los enlaces */
+}
+
+body {
+    font-family: 'Young Serif', serif;
+}
+footer {
+    background-color: #222; /* Un color oscuro para el fondo */
+    padding: 20px 0; /* Espaciado arriba y abajo */
+    color: white; /* Color del texto */
+}
+
+.final h1, .final h2 {
+    margin: 10px 0; /* Margen entre los títulos */
+    font-family: 'Young Serif', serif; /* Aplicar la fuente importada */
+}
+
+.final h1 {
+    font-size: 24px;
+    color: #ffcc00; /* Color del texto principal */
+}
+
+.final h2 {
+    font-size: 18px;
+    color: #ccc; /* Color secundario */
+}
+
+.final {
+    text-align: center; /* Centra el texto en el footer */
+}
+
+.final h1::after {
+    content: ''; /* Línea decorativa debajo del título */
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ffcc
+}
+.contact {
+      text-align: center;
+      margin: 20px;
+  }
+  .email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF; /* Color de fondo del botón */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
